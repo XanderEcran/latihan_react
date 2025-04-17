@@ -1,6 +1,6 @@
 function Matkul ({ kode, nama }) {
     return (
-        <li>
+        <li style={{ color: kode == 'BD1019' ? 'pink' : 'white' }} >
         {kode} - {nama}
         </li>
     );
