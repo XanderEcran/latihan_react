@@ -8,17 +8,18 @@ const nama = "Desyana";
 const role = "superAdmin";
 
 function App() {
+
   return (
-  <div>
-  <h1>Selamat datang, {nama}!</h1>
-  <p>Peran: {role}</p>
-  
-  <ul>
-  <Matkul kode="BD1007" nama="Pemrograman Web Dasar" />
-  <Matkul kode="BD1019" nama="Pemrograman Web Lanjutan" />
-  </ul>
-  </div>
+   <div>
+    <h1>Selamat datang {nama}!</h1>
+    <p>Peran: {role} </p>
+
+    <ul>
+      <Matkul kode="BD1007" nama="Pemrograman Web Dasar" />
+      <Matkul kode="BD1019" nama="Pemrograman Web Lanjutan" />
+    </ul>
+   </div>
   );
-  }
+}
 
 export default App
