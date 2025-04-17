@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import Matkul from './components/Matkul';
+import ListMatkul from './components/ListMatkul';
 const nama = "Desyana";
 const role = "superAdmin";
 
@@ -14,10 +14,7 @@ function App() {
     <h1>Selamat datang {nama}!</h1>
     <p>Peran: {role} </p>
 
-    <ul>
-      <Matkul kode="BD1007" nama="Pemrograman Web Dasar" />
-      <Matkul kode="BD1019" nama="Pemrograman Web Lanjutan" />
-    </ul>
+    <ListMatkul />
    </div>
   );
 }
